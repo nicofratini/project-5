@@ -1,0 +1,26 @@
+{
+  "title": "Paramètres de simulation",
+  "globalRate": {
+    "label": "Taux de rendement global (%)",
+    "description": "Taux de rendement appliqué sur l'investissement total"
+  },
+  "unusedFundsRate": {
+    "label": "Taux sur fonds non utilisés (%)",
+    "description": "Taux d'intérêt annuel sur les fonds non encore appelés"
+  },
+  "duration": {
+    "label": "Durée du cycle (mois)",
+    "description": "Durée totale d'un cycle d'investissement",
+    "months": "mois"
+  },
+  "paymentSchedule": {
+    "label": "Échéancier des versements",
+    "month": "Mois",
+    "percentage": "Pourcentage (%)",
+    "add": "Ajouter une échéance"
+  },
+  "buttons": {
+    "cancel": "Annuler",
+    "save": "Enregistrer"
+  }
+}

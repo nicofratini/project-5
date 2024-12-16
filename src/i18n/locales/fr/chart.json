@@ -1,0 +1,19 @@
+{
+  "label": "Mois {{month}}",
+  "unusedFunds": {
+    "title": "Fonds non utilisés",
+    "description": "Montant restant disponible"
+  },
+  "interest": {
+    "title": "Intérêts cumulés",
+    "description": "{{rate}}% par an sur les fonds non utilisés"
+  },
+  "fundCalls": {
+    "title": "Appels de fonds",
+    "description": "Versements échelonnés"
+  },
+  "cashback": {
+    "title": "Retour sur investissement",
+    "description": "Montant final récupéré"
+  }
+}

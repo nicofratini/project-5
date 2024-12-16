@@ -1,0 +1,51 @@
+{
+  "toggle": "Enable Financial Leverage",
+  "enabled": "Financial leverage enabled",
+  "disabled": "Financial leverage disabled",
+  "settings": {
+    "title": "Leverage Settings",
+    "ratio": {
+      "label": "Leverage Ratio (%)",
+      "help": "Percentage of investment to finance through credit"
+    },
+    "investmentReturnRate": {
+      "label": "Annual Return Rate (%)",
+      "help": "Expected return rate on investment"
+    },
+    "interestRate": {
+      "label": "Annual Interest Rate (%)",
+      "help": "Interest rate applied to credit"
+    },
+    "duration": {
+      "label": "Credit Duration (months)",
+      "help": "Total credit duration"
+    }
+  },
+  "results": {
+    "title": "Leverage Results",
+    "metrics": {
+      "loanAmount": {
+        "title": "Available Credit",
+        "description": "Maximum available credit amount"
+      },
+      "totalInterest": {
+        "title": "Total Interest",
+        "description": "Total cost of credit over duration"
+      },
+      "totalInvestmentReturn": {
+        "title": "Total Return",
+        "description": "Gross investment return"
+      },
+      "netReturn": {
+        "title": "Net Return",
+        "description": "Return after interest deduction"
+      }
+    },
+    "summary": {
+      "effectiveRate": "Effective Global Rate",
+      "usedCredit": "Used Credit",
+      "totalInvestment": "Total Investment",
+      "monthlyPayment": "Maximum Monthly Payment"
+    }
+  }
+}

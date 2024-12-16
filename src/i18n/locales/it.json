@@ -1,0 +1,106 @@
+{
+  "title": "Simulatore di Investimenti Immobiliari",
+  "disclaimer": {
+    "title": "Avvertenza",
+    "content": "Questo simulatore è uno strumento educativo progettato per fornire stime indicative delle performance finanziarie basate su ipotesi predefinite. I risultati visualizzati non costituiscono una garanzia di rendimento e non sostituiscono la consulenza finanziaria personalizzata. Gli investimenti comportano rischi, inclusa la potenziale perdita del capitale investito."
+  },
+  "input": {
+    "title": "Simula il tuo investimento inserendo un importo iniziale",
+    "placeholder": "Importo da investire",
+    "calculate": "Calcola",
+    "disclaimer": "Tutti i calcoli sono basati su stime e proiezioni"
+  },
+  "results": {
+    "totalReturn": {
+      "title": "Importo stimato recuperato",
+      "description": "Rendimento stimato del {{rate}}% su {{duration}} mesi + {{interest}} di interessi"
+    },
+    "netGain": {
+      "title": "Guadagno netto stimato",
+      "description": "Rendimento totale stimato + interessi - investimento"
+    },
+    "globalRate": {
+      "title": "Tasso globale stimato",
+      "description": "Performance totale stimata su {{duration}} mesi"
+    },
+    "annualRate": {
+      "title": "Tasso annualizzato stimato",
+      "description": "Performance media annua stimata"
+    }
+  },
+  "cycles": {
+    "title": "Durata dell'investimento",
+    "descriptions": {
+      "1": "Un ciclo completo di rendimento",
+      "2": "Reinvestimento automatico",
+      "3": "Triplo ciclo di rendimento"
+    },
+    "details": {
+      "title": "Dettagli dei cicli di investimento",
+      "cycleNumber": "Ciclo {{number}}",
+      "initialAmount": "Importo iniziale",
+      "creditUsed": "Credito utilizzato",
+      "finalAmount": "Importo finale",
+      "netGain": "Guadagno netto",
+      "unusedFundsInterest": "Interessi su fondi non utilizzati"
+    }
+  },
+  "timeline": {
+    "title": "Calendario dei pagamenti",
+    "cycle": "Ciclo {{number}} ({{duration}} mesi)",
+    "month": "Mese {{number}}",
+    "amount": "Importo da pagare",
+    "creditUsed": "Credito utilizzato",
+    "percentage": "Percentuale",
+    "progress": "Fondi rimanenti",
+    "totalAmount": "Totale del ciclo: {{amount}}"
+  },
+  "leverage": {
+    "toggle": "Attiva leva finanziaria",
+    "settings": {
+      "title": "Impostazioni della leva",
+      "ratio": "Rapporto di leva (%)",
+      "ratioHelp": "Percentuale dell'investimento da finanziare tramite credito",
+      "interestRate": "Tasso di interesse annuo (%)",
+      "investmentReturnRate": "Tasso di rendimento annuo (%)",
+      "duration": "Durata del credito (mesi)"
+    },
+    "results": {
+      "title": "Risultati della leva",
+      "loanAmount": "Credito disponibile",
+      "monthlyPayment": "Rata mensile massima",
+      "totalInterest": "Interessi totali",
+      "totalInvestmentReturn": "Rendimento totale",
+      "netReturn": "Rendimento netto",
+      "totalInvestment": "Investimento totale",
+      "effectiveRate": "Tasso effettivo globale",
+      "usedCredit": "Credito utilizzato"
+    }
+  },
+  "settings": {
+    "title": "Impostazioni della simulazione",
+    "globalRate": {
+      "label": "Tasso di rendimento globale (%)",
+      "description": "Tasso di rendimento applicato all'investimento totale"
+    },
+    "unusedFundsRate": {
+      "label": "Tasso sui fondi non utilizzati (%)",
+      "description": "Tasso di interesse annuo sui fondi non ancora utilizzati"
+    },
+    "duration": {
+      "label": "Durata del ciclo (mesi)",
+      "description": "Durata totale di un ciclo di investimento",
+      "months": "mesi"
+    },
+    "paymentSchedule": {
+      "label": "Calendario dei pagamenti",
+      "month": "Mese",
+      "percentage": "Percentuale (%)",
+      "add": "Aggiungi pagamento"
+    },
+    "buttons": {
+      "cancel": "Annulla",
+      "save": "Salva"
+    }
+  }
+}

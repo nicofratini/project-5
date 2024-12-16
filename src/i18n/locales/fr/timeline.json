@@ -1,0 +1,10 @@
+{
+  "title": "Échéancier des versements",
+  "cycle": "Cycle {{number}} ({{duration}} mois)",
+  "month": "Mois {{number}}",
+  "amount": "Montant à verser",
+  "creditUsed": "Crédit utilisé",
+  "percentage": "Pourcentage",
+  "progress": "Fonds restants",
+  "totalAmount": "Total du cycle : {{amount}}"
+}

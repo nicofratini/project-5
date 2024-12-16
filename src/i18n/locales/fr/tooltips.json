@@ -1,0 +1,8 @@
+{
+  "chart": {
+    "unusedFunds": "Fonds disponibles : {{amount}}",
+    "interest": "Intérêts : {{amount}}",
+    "fundCall": "Appel de fonds : {{amount}}",
+    "cycleEnd": "Fin de cycle : {{amount}}"
+  }
+}

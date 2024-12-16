@@ -1,0 +1,21 @@
+{
+  "totalInvestment": "Total amount invested",
+  "profit": "Net profit",
+  "percentageGrowth": "Percentage growth",
+  "totalReturn": {
+    "title": "Estimated amount recovered",
+    "description": "Estimated return of {{rate}}% over {{duration}} months + {{interest}} interest"
+  },
+  "netGain": {
+    "title": "Estimated net gain",
+    "description": "Total estimated return + interest - investment"
+  },
+  "globalRate": {
+    "title": "Estimated global rate",
+    "description": "Total estimated performance over {{duration}} months"
+  },
+  "annualRate": {
+    "title": "Estimated annualized rate",
+    "description": "Average annual estimated performance"
+  }
+}

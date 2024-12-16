@@ -1,0 +1,51 @@
+{
+  "toggle": "Activar apalancamiento financiero",
+  "enabled": "Apalancamiento financiero activado",
+  "disabled": "Apalancamiento financiero desactivado",
+  "settings": {
+    "title": "Configuración del apalancamiento",
+    "ratio": {
+      "label": "Ratio de apalancamiento (%)",
+      "help": "Porcentaje de la inversión a financiar mediante crédito"
+    },
+    "investmentReturnRate": {
+      "label": "Tasa de rendimiento anual (%)",
+      "help": "Tasa de rendimiento esperada sobre la inversión"
+    },
+    "interestRate": {
+      "label": "Tasa de interés anual (%)",
+      "help": "Tasa de interés aplicada al crédito"
+    },
+    "duration": {
+      "label": "Duración del crédito (meses)",
+      "help": "Duración total del crédito"
+    }
+  },
+  "results": {
+    "title": "Resultados del apalancamiento",
+    "metrics": {
+      "loanAmount": {
+        "title": "Crédito disponible",
+        "description": "Monto máximo de crédito accesible"
+      },
+      "totalInterest": {
+        "title": "Total de intereses",
+        "description": "Costo total del crédito durante la duración"
+      },
+      "totalInvestmentReturn": {
+        "title": "Rendimiento total",
+        "description": "Rendimiento bruto de la inversión"
+      },
+      "netReturn": {
+        "title": "Rendimiento neto",
+        "description": "Rendimiento después de deducir intereses"
+      }
+    },
+    "summary": {
+      "effectiveRate": "Tasa efectiva global",
+      "usedCredit": "Crédito utilizado",
+      "totalInvestment": "Inversión total",
+      "monthlyPayment": "Cuota mensual máxima"
+    }
+  }
+}

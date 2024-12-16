@@ -1,0 +1,25 @@
+{
+  "label": "Month {{month}}",
+  "unusedFunds": {
+    "title": "Unused Funds",
+    "description": "Available remaining amount"
+  },
+  "interest": {
+    "title": "Cumulative Interest",
+    "description": "{{rate}}% per year on unused funds"
+  },
+  "fundCalls": {
+    "title": "Fund Calls",
+    "description": "Scheduled payments"
+  },
+  "cashback": {
+    "title": "Investment Return",
+    "description": "Final amount recovered"
+  },
+  "tooltips": {
+    "unusedFunds": "Available funds: {{amount}}",
+    "interest": "Interest: {{amount}}",
+    "fundCall": "Fund call: {{amount}}",
+    "cycleEnd": "Cycle end: {{amount}}"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "totalReturn": {
+    "title": "Montant récupéré estimé",
+    "description": "Rendement estimé de {{rate}}% sur {{duration}} mois + {{interest}} d'intérêts"
+  },
+  "netGain": {
+    "title": "Gain net estimé",
+    "description": "Rendement total estimé + intérêts - investissement"
+  },
+  "globalRate": {
+    "title": "Taux global estimé",
+    "description": "Performance totale estimée sur {{duration}} mois"
+  },
+  "annualRate": {
+    "title": "Taux annualisé estimé",
+    "description": "Performance annuelle moyenne estimée"
+  },
+  "metrics": {
+    "totalInvestment": "Montant total investi",
+    "profit": "Bénéfice net",
+    "percentageGrowth": "Croissance en pourcentage",
+    "grossReturn": "Rendement brut",
+    "creditCost": "Coût du crédit"
+  }
+}

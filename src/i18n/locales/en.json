@@ -1,0 +1,93 @@
+{
+  "title": "Real Estate Investment Simulator",
+  "cycles": {
+    "title": "Investment Duration",
+    "descriptions": {
+      "1": "One complete return cycle",
+      "2": "Automatic reinvestment",
+      "3": "Triple return cycle"
+    },
+    "details": {
+      "title": "Investment Cycles Details",
+      "cycleNumber": "Cycle {{number}}",
+      "initialAmount": "Initial amount",
+      "finalAmount": "Final amount",
+      "netGain": "Net gain",
+      "unusedFundsInterest": "Interest on unused funds",
+      "creditUsed": "Credit used",
+      "leveragedAmount": "Leveraged amount"
+    }
+  },
+  "leverage": {
+    "toggle": "Enable Financial Leverage",
+    "enabled": "Financial leverage enabled",
+    "disabled": "Financial leverage disabled",
+    "settings": {
+      "title": "Leverage Settings",
+      "ratio": {
+        "label": "Leverage Ratio (%)",
+        "help": "Percentage of investment to finance through credit"
+      },
+      "investmentReturnRate": {
+        "label": "Annual Return Rate (%)",
+        "help": "Expected return rate on investment"
+      },
+      "interestRate": {
+        "label": "Annual Interest Rate (%)",
+        "help": "Interest rate applied to credit"
+      },
+      "duration": {
+        "label": "Credit Duration (months)",
+        "help": "Total credit duration"
+      }
+    },
+    "results": {
+      "metrics": {
+        "loanAmount": {
+          "title": "Available Credit",
+          "description": "Maximum available credit amount"
+        },
+        "totalInterest": {
+          "title": "Total Interest",
+          "description": "Total cost of credit over duration"
+        },
+        "totalInvestmentReturn": {
+          "title": "Total Return",
+          "description": "Gross investment return"
+        },
+        "netReturn": {
+          "title": "Net Return",
+          "description": "Return after interest deduction"
+        }
+      },
+      "summary": {
+        "effectiveRate": "Effective Global Rate",
+        "totalInvestment": "Total Investment",
+        "usedCredit": "Used Credit"
+      }
+    }
+  },
+  "settings": {
+    "duration": {
+      "months": "months"
+    }
+  },
+  "results": {
+    "totalReturn": {
+      "title": "Estimated amount recovered",
+      "description": "Estimated return of {{rate}}% over {{duration}} months + {{interest}} interest"
+    },
+    "netGain": {
+      "title": "Estimated net gain",
+      "description": "Total estimated return + interest - investment"
+    },
+    "globalRate": {
+      "title": "Estimated global rate",
+      "description": "Total estimated performance over {{duration}} months"
+    },
+    "annualRate": {
+      "title": "Estimated annualized rate",
+      "description": "Average annual estimated performance"
+    }
+  }
+}

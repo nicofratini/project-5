@@ -1,0 +1,20 @@
+{
+  "title": "Duración de la inversión",
+  "descriptions": {
+    "1": "Un ciclo completo de rendimiento",
+    "2": "Reinversión automática",
+    "3": "Triple ciclo de rendimiento"
+  },
+  "details": {
+    "title": "Detalles de los ciclos de inversión",
+    "cycleNumber": "Ciclo {{number}}",
+    "initialAmount": "Monto inicial",
+    "finalAmount": "Monto final",
+    "netGain": "Ganancia neta",
+    "unusedFundsInterest": "Intereses sobre fondos no utilizados",
+    "creditUsed": "Crédito utilizado",
+    "leveragedAmount": "Monto apalancado",
+    "grossReturn": "Rendimiento bruto",
+    "creditCost": "Costo del crédito"
+  }
+}

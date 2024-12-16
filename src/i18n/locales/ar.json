@@ -1,0 +1,42 @@
+{
+  "leverage": {
+    "toggle": "تفعيل الرافعة المالية",
+    "settings": {
+      "title": "إعدادات الرافعة المالية",
+      "ratio": "نسبة الرافعة (%)",
+      "ratioHelp": "النسبة المئوية للاستثمار الممول عن طريق الائتمان",
+      "interestRate": "معدل الفائدة السنوي (%)",
+      "investmentReturnRate": "معدل العائد السنوي للاستثمار (%)",
+      "duration": "مدة الائتمان (بالأشهر)"
+    },
+    "results": {
+      "loanAmount": "مبلغ الائتمان المتاح",
+      "monthlyPayment": "الحد الأقصى للدفعة الشهرية",
+      "totalInterest": "إجمالي الفوائد",
+      "totalInvestmentReturn": "العائد الإجمالي للاستثمار",
+      "netReturn": "العائد الصافي (بعد الفوائد)",
+      "totalInvestment": "إجمالي الاستثمار",
+      "effectiveRate": "المعدل السنوي الفعلي",
+      "usedCredit": "الائتمان المستخدم"
+    },
+    "chart": {
+      "title": "استخدام الائتمان",
+      "month": "الشهر {{month}}",
+      "xAxis": "الشهر",
+      "yAxis": "المبلغ (€)",
+      "remainingBalance": "الرصيد المتبقي",
+      "principal": "رأس المال المسدد",
+      "interest": "الفوائد",
+      "investmentReturn": "عائد الاستثمار",
+      "netCashFlow": "صافي التدفق النقدي",
+      "usedCredit": "الائتمان المستخدم"
+    },
+    "validation": {
+      "ratioRange": "يجب أن تكون نسبة الرافعة بين 0 و 100%",
+      "positiveRate": "يجب أن تكون المعدلات أكبر من 0",
+      "positiveDuration": "يجب أن تكون المدة عدداً صحيحاً موجباً من الأشهر",
+      "positiveInvestment": "يجب أن يكون الاستثمار الأولي أكبر من 0",
+      "returnRateHigher": "يجب أن يكون معدل العائد أعلى من معدل الفائدة"
+    }
+  }
+}

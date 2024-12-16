@@ -1,0 +1,51 @@
+{
+  "toggle": "Activer le levier financier",
+  "enabled": "Levier financier activé",
+  "disabled": "Levier financier désactivé",
+  "settings": {
+    "title": "Paramètres du levier",
+    "ratio": {
+      "label": "Ratio de levier (%)",
+      "help": "Pourcentage de l'investissement à financer par crédit"
+    },
+    "investmentReturnRate": {
+      "label": "Taux de rendement annuel (%)",
+      "help": "Taux de rendement attendu sur l'investissement"
+    },
+    "interestRate": {
+      "label": "Taux d'intérêt annuel (%)",
+      "help": "Taux d'intérêt appliqué sur le crédit"
+    },
+    "duration": {
+      "label": "Durée du crédit (mois)",
+      "help": "Durée totale du crédit"
+    }
+  },
+  "results": {
+    "title": "Résultats du levier financier",
+    "metrics": {
+      "loanAmount": {
+        "title": "Crédit disponible",
+        "description": "Montant maximum de crédit accessible"
+      },
+      "totalInterest": {
+        "title": "Total des intérêts",
+        "description": "Coût total du crédit sur la durée"
+      },
+      "totalInvestmentReturn": {
+        "title": "Rendement total",
+        "description": "Rendement brut de l'investissement"
+      },
+      "netReturn": {
+        "title": "Rendement net",
+        "description": "Rendement après déduction des intérêts"
+      }
+    },
+    "summary": {
+      "effectiveRate": "Taux effectif global",
+      "usedCredit": "Crédit utilisé",
+      "totalInvestment": "Investissement total",
+      "monthlyPayment": "Mensualité maximale"
+    }
+  }
+}

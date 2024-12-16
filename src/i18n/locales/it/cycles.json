@@ -1,0 +1,20 @@
+{
+  "title": "Durata dell'investimento",
+  "descriptions": {
+    "1": "Un ciclo completo di rendimento",
+    "2": "Reinvestimento automatico",
+    "3": "Triplo ciclo di rendimento"
+  },
+  "details": {
+    "title": "Dettagli dei cicli di investimento",
+    "cycleNumber": "Ciclo {{number}}",
+    "initialAmount": "Importo iniziale",
+    "finalAmount": "Importo finale",
+    "netGain": "Guadagno netto",
+    "unusedFundsInterest": "Interessi su fondi non utilizzati",
+    "creditUsed": "Credito utilizzato",
+    "leveragedAmount": "Importo con leva",
+    "grossReturn": "Rendimento lordo",
+    "creditCost": "Costo del credito"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "toggle": "Attiva leva finanziaria",
+  "enabled": "Leva finanziaria attivata",
+  "disabled": "Leva finanziaria disattivata",
+  "settings": {
+    "title": "Impostazioni della leva",
+    "ratio": {
+      "label": "Rapporto di leva (%)",
+      "help": "Percentuale dell'investimento da finanziare tramite credito"
+    },
+    "investmentReturnRate": {
+      "label": "Tasso di rendimento annuo (%)",
+      "help": "Tasso di rendimento atteso sull'investimento"
+    },
+    "interestRate": {
+      "label": "Tasso di interesse annuo (%)",
+      "help": "Tasso di interesse applicato al credito"
+    },
+    "duration": {
+      "label": "Durata del credito (mesi)",
+      "help": "Durata totale del credito"
+    }
+  },
+  "results": {
+    "title": "Risultati della leva",
+    "metrics": {
+      "loanAmount": {
+        "title": "Credito disponibile",
+        "description": "Importo massimo di credito accessibile"
+      },
+      "totalInterest": {
+        "title": "Totale interessi",
+        "description": "Costo totale del credito sulla durata"
+      },
+      "totalInvestmentReturn": {
+        "title": "Rendimento totale",
+        "description": "Rendimento lordo dell'investimento"
+      },
+      "netReturn": {
+        "title": "Rendimento netto",
+        "description": "Rendimento dopo deduzione degli interessi"
+      }
+    },
+    "summary": {
+      "effectiveRate": "Tasso effettivo globale",
+      "usedCredit": "Credito utilizzato",
+      "totalInvestment": "Investimento totale",
+      "monthlyPayment": "Rata mensile massima"
+    }
+  }
+}

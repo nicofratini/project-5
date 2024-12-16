@@ -1,0 +1,20 @@
+{
+  "title": "Investment Duration",
+  "descriptions": {
+    "1": "One complete return cycle",
+    "2": "Automatic reinvestment",
+    "3": "Triple return cycle"
+  },
+  "details": {
+    "title": "Investment Cycles Details",
+    "cycleNumber": "Cycle {{number}}",
+    "initialAmount": "Initial amount",
+    "finalAmount": "Final amount",
+    "netGain": "Net gain",
+    "unusedFundsInterest": "Interest on unused funds",
+    "creditUsed": "Credit used",
+    "leveragedAmount": "Leveraged amount",
+    "grossReturn": "Gross return",
+    "creditCost": "Credit cost"
+  }
+}
